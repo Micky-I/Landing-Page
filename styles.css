@@ -118,7 +118,7 @@ margin-top: 60px;
     align-items: center;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 80px;
     
 }
 
@@ -130,11 +130,40 @@ margin-top: 60px;
 }
 
 .ref {
-    font-size: 26px;
     font-weight: bold;
     margin-left: 500px;
 }
 
+.bot {display: flex;
+justify-content: center;
+align-items: center;
+background-color: #3882f6;
+padding: 40px 20px;
+margin: 80px 600px;
+border-radius: 12px;
+gap: 150px;
+}
+
+.small {display: flex;
+flex-direction: column;}
+
+.action {
+    font-size: 26px ;
+    font-weight: bold;
+    color: white;
+    margin-left: 0;
+}
+
+#button2 {
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
 
 ul {  list-style-type: none;}
 
